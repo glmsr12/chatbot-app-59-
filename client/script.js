@@ -90,7 +90,7 @@ const handleSubmit = async (e) => {
 
   //fetch data from the server -> bot's response
 
-  const response = await fetch('http://localhost:3002', {
+  const response = await fetch('https://chatbox-mst5.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
